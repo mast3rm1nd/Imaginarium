@@ -45,7 +45,7 @@ namespace Imaginarium
                 new PhysicalObject { ComboboxName = "Футбольное поле", TextboxName = "Футбольных полей", Value = 105 },
                 new PhysicalObject { ComboboxName = "Рост человека [170 см]", TextboxName = "Человеческих ростов [170 см]", Value =  1.7},
                 new PhysicalObject { ComboboxName = "От Земли до Солнца", TextboxName = "Расстояний от Земли до Солнца", Value =  1.496E11},
-                new PhysicalObject { ComboboxName = "От Земли до Луны", TextboxName = "Расстоний от Земли до Луны", Value = 384400E3 },
+                new PhysicalObject { ComboboxName = "От Земли до Луны", TextboxName = "Расстояний от Земли до Луны", Value = 384400E3 },
                 new PhysicalObject { ComboboxName = "Диаметр солнечной системы", TextboxName = "Диаметров солнечной системы", Value = 9.09E12  },
                 new PhysicalObject { ComboboxName = "Световой год", TextboxName = "Световых лет", Value =  9.4607E15},
                 //new PhysicalObject { ComboboxName = "", TextboxName = "", Value =  },
@@ -109,17 +109,6 @@ namespace Imaginarium
         public override string ToString()
         {
             return ComboboxName;
-        }
-    }
-
-    class Convertor
-    {
-        public string Name { get; set; }
-        public PhysicalObject[] ObjectsArr { get; set; }
-
-        public override string ToString()
-        {
-            return Name;
         }
     }
 }
