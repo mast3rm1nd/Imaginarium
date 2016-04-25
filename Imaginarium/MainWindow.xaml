@@ -1,0 +1,17 @@
+﻿<Window x:Class="Imaginarium.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Imaginarium"
+        mc:Ignorable="d"
+        Title="Imaginarium" Height="420" Width="448" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Физическая величина:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="PhysicalValue_comboBox" HorizontalAlignment="Left" Margin="145.727,14,0,0" VerticalAlignment="Top" Width="211.273" SelectionChanged="PhysicalValue_comboBox_SelectionChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <ComboBox x:Name="Object_comboBox" HorizontalAlignment="Left" Margin="145.727,40.96,0,0" VerticalAlignment="Top" Width="211.273" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionChanged="Object_comboBox_SelectionChanged"/>
+        <Label x:Name="label_Copy" Content="Объект:" HorizontalAlignment="Left" Margin="10,36.96,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Results_textBox" Margin="10,67.92,20,20" TextWrapping="Wrap" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+
+    </Grid>
+</Window>
